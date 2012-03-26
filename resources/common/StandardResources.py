@@ -288,6 +288,7 @@ propertyNamesToOmit = [
 	("marker", "edu.cmu.cs.stage3.alice.core.behavior.SoundMarkerPassedBehavior"),
 	("level", "edu.cmu.cs.stage3.alice.core.behavior.SoundLevelBehavior"),
 	("subject", "edu.cmu.cs.stage3.alice.core.behavior.KeyboardNavigationBehavior"),
+	("subject", "edu.cmu.cs.stage3.alice.core.behavior.WiiRemoteBehavior"),
 	("start", "edu.cmu.cs.stage3.alice.core.response.LoopNInOrder"),
 	("increment", "edu.cmu.cs.stage3.alice.core.response.LoopNInOrder"),
 	("end", "edu.cmu.cs.stage3.alice.core.response.LoopNInOrder"),
@@ -370,6 +371,7 @@ propertyNamesToOmit = [
 	("interactionMap", "edu.cmu.cs.stage3.alice.core.Model"),
 	("disabledAffectors", "edu.cmu.cs.stage3.alice.core.Model"),
 	("transformable", "edu.cmu.cs.stage3.alice.core.behavior.KeyboardNavigationBehavior"),
+	("transformable", "edu.cmu.cs.stage3.alice.core.behavior.WiiRemoteBehavior"),
 	("a", "edu.cmu.cs.stage3.alice.core.question.StringConcatQuestion"),
 	("b", "edu.cmu.cs.stage3.alice.core.question.StringConcatQuestion"),
 	("what", "edu.cmu.cs.stage3.alice.core.question.ToStringQuestion"),
@@ -1673,6 +1675,7 @@ behaviorList = [
 #	edu.cmu.cs.stage3.alice.core.behavior.MessageReceivedBehavior,
 #	edu.cmu.cs.stage3.alice.core.behavior.SoundMarkerPassedBehavior,
 #	edu.cmu.cs.stage3.alice.core.behavior.SoundLevelBehavior,
+	edu.cmu.cs.stage3.alice.core.behavior.WiiRemoteBehavior,
 ]
 
 behaviorParameterProperties = [
@@ -1699,6 +1702,9 @@ behaviorParameterProperties = [
 	"objects",
 ],
 ["edu.cmu.cs.stage3.bb2.navigation.KeyboardNavigationBehavior",
+	"subject",
+],
+["edu.cmu.cs.stage3.bb2.navigation.WiiRemoteBehavior",
 	"subject",
 ],
 ["edu.cmu.cs.stage3.bb2.navigation.MouseNavigationBehavior",

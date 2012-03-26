@@ -251,6 +251,7 @@ nameMap = {
 	"edu.cmu.cs.stage3.alice.core.behavior.MouseLookingBehavior" : "Let <mouse> orient the camera",
 	"edu.cmu.cs.stage3.alice.core.behavior.SoundMarkerPassedBehavior" : "When the sound marker <marker> is played",
 	"edu.cmu.cs.stage3.alice.core.behavior.SoundLevelBehavior" : "When the sound recording level is >= <level>",
+	"edu.cmu.cs.stage3.alice.core.behavior.WiiRemoteBehavior" : "Let Wii Remote move <subject>", 
 
 	"edu.cmu.cs.stage3.alice.core.Model.opacity" : "opacity",
 	"edu.cmu.cs.stage3.alice.core.Model.diffuseColorMap" : "skin texture",

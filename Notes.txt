@@ -1,0 +1,20 @@
+Michael Vorburger's notes
+to understand how to add a new Event type to Alice.org
+for adding Wii remote support to Alice.org
+---
+
+BehaviorGroupEditor is used in the BehaviorGroupsEditor
+
+AuthoringToolResources.resources.behaviorClasses
+
+package edu.cmu.cs.stage3.alice.core.behavior has KeyClickBehavior & Co.
+
+Behaviours are defined in those horribly *.py configurations:
+* Alice Style.py
+* StandardResources.py
+* Java Style.py 
+
+Search for one of the existing behaviours, and copy/paste everything...
+
+---
+Start creating an Event (Behavior) without properties... simpler.
